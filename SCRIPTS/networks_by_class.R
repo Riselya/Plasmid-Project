@@ -320,7 +320,7 @@ for (i in 1:length(uniq)){
       function(x) {ifelse(cls_sizes[x]>1,
         colors[x], "white")})
     
-    
+    # need to have a folder called "PLOTS" in main directory for the plots to save into
     # Define output image file.
     outfile <- paste(outfile, "jpg", sep=".")
     # Image properties.
